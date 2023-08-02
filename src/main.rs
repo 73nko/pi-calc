@@ -2,7 +2,7 @@ use rand::Rng;
 use rug::{ops::Pow, Float};
 use std::f64::consts::SQRT_2;
 
-const PRECISION: u32 = 10_000_000;
+const PRECISION: u32 = 1_000_000;
 
 fn compute_pi_gauss_legendre() -> Float {
     let mut a: Float = Float::with_val(PRECISION, 1.0);
